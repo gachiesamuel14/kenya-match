@@ -19,9 +19,9 @@ export default function Home() {
             <a href="#features" className="hover:text-rose-600 transition">
               Features
             </a>
-            <a href="#counties" className="hover:text-rose-600 transition">
-              Counties
-            </a>
+            <Link href="/discover" className="hover:text-rose-600 transition">
+              Discover
+            </Link>
           </nav>
           <div className="flex items-center gap-3">
             <Link
@@ -63,12 +63,12 @@ export default function Home() {
               >
                 Create free account
               </Link>
-              <a
-                href="#how-it-works"
+              <Link
+                href="/discover"
                 className="inline-flex items-center justify-center rounded-full border border-zinc-300 bg-white px-8 py-3.5 text-base font-semibold text-zinc-800 hover:bg-zinc-50 transition"
               >
-                See how it works
-              </a>
+                Try Discover (demo)
+              </Link>
             </div>
             <p className="mt-4 text-sm text-zinc-500">
               Free to start · Location privacy respected · Report & safety tools
